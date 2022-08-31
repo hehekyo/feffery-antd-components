@@ -9432,6 +9432,13 @@
           "computed": false
         }
       },
+      "pureLegendLabelStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": ""
+      },
       "loading_state": {
         "type": {
           "name": "shape",
