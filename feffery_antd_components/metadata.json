@@ -9366,6 +9366,17 @@
           "computed": false
         }
       },
+      "pureLegend": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
       "breakpoints": {
         "type": {
           "name": "arrayOf",
