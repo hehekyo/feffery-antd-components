@@ -13813,11 +13813,44 @@
       },
       "treeData": {
         "type": {
-          "name": "custom",
-          "raw": "treeDataPropTypes.isRequired"
+          "name": "union",
+          "value": [
+            {
+              "name": "custom",
+              "raw": "treeDataPropTypes"
+            },
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "custom",
+                "raw": "PropFlatNodeShape"
+              }
+            }
+          ]
         },
         "required": false,
         "description": ""
+      },
+      "treeDataMode": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'tree'",
+              "computed": false
+            },
+            {
+              "value": "'flat'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "'tree'",
+          "computed": false
+        }
       },
       "showIcon": {
         "type": {
@@ -14125,11 +14158,44 @@
       },
       "treeData": {
         "type": {
-          "name": "custom",
-          "raw": "treeDataPropTypes"
+          "name": "union",
+          "value": [
+            {
+              "name": "custom",
+              "raw": "treeDataPropTypes"
+            },
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "custom",
+                "raw": "PropFlatNodeShape"
+              }
+            }
+          ]
+        },
+        "required": true,
+        "description": ""
+      },
+      "treeDataMode": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'tree'",
+              "computed": false
+            },
+            {
+              "value": "'flat'",
+              "computed": false
+            }
+          ]
         },
         "required": false,
-        "description": ""
+        "description": "",
+        "defaultValue": {
+          "value": "'tree'",
+          "computed": false
+        }
       },
       "allowClear": {
         "type": {
