@@ -1474,6 +1474,17 @@
           "computed": false
         }
       },
+      "debounceWait": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        }
+      },
       "loading": {
         "type": {
           "name": "bool"
@@ -5367,17 +5378,6 @@
         },
         "required": false,
         "description": ""
-      },
-      "debounceWait": {
-        "type": {
-          "name": "number"
-        },
-        "required": false,
-        "description": "",
-        "defaultValue": {
-          "value": "0",
-          "computed": false
-        }
       },
       "setProps": {
         "type": {
