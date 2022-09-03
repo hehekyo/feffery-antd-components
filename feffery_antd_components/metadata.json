@@ -1906,11 +1906,44 @@
       },
       "options": {
         "type": {
-          "name": "custom",
-          "raw": "optionDataPropTypes.isRequired"
+          "name": "union",
+          "value": [
+            {
+              "name": "custom",
+              "raw": "optionDataPropTypes"
+            },
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "custom",
+                "raw": "PropFlatOptionNodeShape"
+              }
+            }
+          ]
+        },
+        "required": true,
+        "description": ""
+      },
+      "optionsMode": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'tree'",
+              "computed": false
+            },
+            {
+              "value": "'flat'",
+              "computed": false
+            }
+          ]
         },
         "required": false,
-        "description": ""
+        "description": "",
+        "defaultValue": {
+          "value": "'tree'",
+          "computed": false
+        }
       },
       "disabled": {
         "type": {
