@@ -1485,6 +1485,13 @@
           "computed": false
         }
       },
+      "icon": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": ""
+      },
       "loading": {
         "type": {
           "name": "bool"
