@@ -2147,6 +2147,27 @@
         "required": false,
         "description": ""
       },
+      "showCheckedStrategy": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'show-parent'",
+              "computed": false
+            },
+            {
+              "value": "'show-children'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "'show-parent'",
+          "computed": false
+        }
+      },
       "loading_state": {
         "type": {
           "name": "shape",
