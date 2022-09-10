@@ -5380,6 +5380,24 @@
         "required": false,
         "description": ""
       },
+      "debounceValue": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "debounceWait": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "300",
+          "computed": false
+        }
+      },
       "showCount": {
         "type": {
           "name": "bool"
@@ -5495,6 +5513,10 @@
             "value": [
               {
                 "value": "'value'",
+                "computed": false
+              },
+              {
+                "value": "'md5Value'",
                 "computed": false
               }
             ]
