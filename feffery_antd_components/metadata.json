@@ -11413,6 +11413,14 @@
                   "tooltipCustomContent": {
                     "name": "string",
                     "required": false
+                  },
+                  "progressOneHundredPercentColor": {
+                    "name": "string",
+                    "required": false
+                  },
+                  "ringProgressFontSize": {
+                    "name": "number",
+                    "required": false
                   }
                 },
                 "required": false
