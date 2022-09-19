@@ -12637,6 +12637,13 @@
           "computed": false
         }
       },
+      "emptyContent": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": ""
+      },
       "loading_state": {
         "type": {
           "name": "shape",
